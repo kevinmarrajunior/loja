@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Controle de Estoque</title>
+</head>
+<body>
+    <div>
+        <p>LOJINHA DO KEVAO</p>
+    </div>
+    
+    <div>
+        <a href="http://127.0.0.1:5500/index.html">Página Inicial</a>
+        <a href="http://127.0.0.1:5500/ctrl-estoque.html">Controle de Estoque</a>
+        <a href="http://127.0.0.1:5500/add-produto.html">Adicionar Produto</a>
+        <a href="http://127.0.0.1:5500/funcionarios.html">Funcionários</a>
+    </div>
+
+    <h2>Controle de Estoque</h2>
+
+    <table border="5">
+        <tr>
+            <th>Foto</th>
+            <th>Descrição</th>
+            <th>Preço (R$)</th>
+            <th>Quantidade disponível</th>
+        </tr>
+
+        <tr>
+            <td><img src="https://io.convertiez.com.br/m/feiradamadrugada/shop/products/images/418585383/medium/bola-de-futebol-n5-society-futsal-fabricada-em-pvc-colors_200080.jpg" width="500", height="500" alt="bola"/></td>
+            <td> BOLA </td>
+            <td> $15 </td>
+            <td> 30 </td>
+        </tr>
+
+        <tr>
+            <td><img src="https://cdn.awsli.com.br/600x450/894/894629/produto/157545047/5f7a527f3d.jpg"  width="500" height="500" alt="gremio"/></td>
+            <td> CAMISA GREMIO </td>
+            <td> $150 </td>
+            <td> 40 </td>
+        </tr>
+
+        <tr>
+            <td><img src="https://images.tcdn.com.br/img/img_prod/311840/chuteira_puma_future_7_match_neymar_jr_njr_fg_ag_campo_bdp_rosa_125819_1_9d4c111270a9d5c8cb31285cc699ba84.jpg" width="500" height="500" alt="NEYMAR"/></td>
+            <td> CHUTEIRA NEYMAR </td>
+            <strong><td> $800 </td></strong>
+            <td> 35 </td>
+        </tr>
+
+        <tr>
+            <td><img src="https://http2.mlstatic.com/D_NQ_NP_786032-MLB53448921848_012023-O.webp" width="500" height="500" alt="CALCAO" /></td>
+            <td> CALÇÃO FUTEBOL </td>
+            <strong><td> $50 </td></strong>
+            <td> 100 </td>
+        </tr>
+        
+        <tr>
+            <td><img src="data:image/jpeg;base64,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" alt="meia" height="500" width="500"></td>
+            <td>MEIAO</td>
+            <td><strong>$40</strong></td>
+            <td>100</td>
+        </tr>
+         
+    </table>
+
+</body>
+</html>
